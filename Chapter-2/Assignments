@@ -1,0 +1,68 @@
+Chapter 2: x86 Processor Architecture
+
+2.1 General Concepts
+But there are some very important material in this chapter for your understanding of assembly language programming, 
+especially, section 2.2 on registers.
+(=== If you are using an older edition of the textbook, you will notice the section headings changed, but the 
+chapter contents is mostly the same ===)
+
+2.1 Section Review
+Do 7 of the review exercises. 
+Remember you can do more of these to learn more.
+
+
+
+
+Chapter 2: x86 Processor Architecture
+
+2.2 x86 Architecture Details
+
+2.2 Section Review
+Do 7 of the review exercises.
+
+This section is VERY important for your work in later chapters.
+
+The section on "Basic Program Execution Registers" is important to understand.
+
+Read the section over carefully, then when you get to chapter 3 programs, you will need to come 
+back and read this section again.
+
+
+
+
+
+
+Chapter 2: x86 Processor Architecture
+
+2.3 x86 Memory Management
+
+2.3 Section Review
+Do 5 of the review exercises.
+
+These Review exercises are optional.
+
+
+
+
+
+
+
+Chapter 2: x86 Processor Architecture
+
+2.4 Components of a Typical x86 Microcomputer
+
+2.4 Section Review
+Do 5 of the review exercises.
+
+
+
+
+Chapter 2: x86 Processor Architecture
+
+2.5 Input-Output System
+
+2.5 Section Review
+Do 3 of the review exercises.
+
+You have now finished an overview of Intel processor and are 
+almost ready to start assembly language programming.
