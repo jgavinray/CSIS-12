@@ -1,0 +1,46 @@
+2.2.5 Section Review  - J. Gavin Ray (5/24/2012)
+
+
+1.	Protected Mode, Virtual-8086 Mode, and Real-Address Mode
+2.	
+	a.	EAX 
+	b.	EBX 
+	c.	ECX
+	d.	EDX	
+	e.	EBP
+	f.	ESP
+	g.	ESI
+	h.	EDI
+3.	
+	a.	CS
+	b.	SS
+	c.	DS
+	d.	ES
+	e.	FS
+	f.	GS
+4.	The CPU uses ECX as a loop counter
+5.	ESP addresses data on the stack (a system memory structure).  It is rarely used for ordinary
+	arithmetic or data transfer.  It is often called the extended stack pointer register.
+
+	EBP is used by high-level languages to reference function parameters and local variables on
+	the stack.  It should not be used for ordinary arithmetic or data transfer except at an 
+	advanced level of programming.  It is often called the extended frame pointer register.
+6.	
+	a.	Carry flag (CF) is set when the results of an UNSIGNED arithmetic operation is too
+		large to fit into the destination.
+	b.	Overflow flag (OF) is set when the results of a SIGNED arithmetic operation is too
+		large or too small to fit into the destination.
+	c.	Sign flag (SF) is set when the result of an arithmetic or logical operation generates
+		a negative result.
+	d.	Zero flag (ZF) is set when the results of an arithmetic or logical operation generates
+		a result of zero.
+	e.	Auxiliary carry flag (AC) is set when an arithmetic operation causes a carry from bit 3 to
+		bit 4 in an 8-bit operand.
+	f.	Parity flag (PF) is set if the least-significant byte in the result contains an even number
+		of 1 bits.  Otherwise, PF is clear.  In general, it is used for error checking when there is
+		a possibility that data might be altered or corrupted.
+7.	Carry Flag (CF)
+8.	Overflow flag (OF)
+9.	Sign flag (SF)
+10.	The floating-point unit (FPU) performs high-speed floating-point arithmetic.  From the Intel486 onward,
+	the FPU has been interated into the main processor chip.
